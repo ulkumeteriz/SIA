@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Typing Speed Experiment</title>
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="onLoad()">
+  
+  <center><p id="targettext"><b>targettext</b></p></center>
+  
+ <center><div id="inputtext" class="inputtextarea" contenteditable="true"></div></center>
+
+  <button id="compare_color" hidden>Compare&Color</button>
+  <button id="color_red" hidden>Red</button>
+  <button id="color_green" hidden>Green</button>
+  <button id="remove_color_tags" hidden>Remove Color Tags</button>
+
+  <pre id="target_pre" hidden>target_pre</pre>
+  <pre id="input_pre" hidden>input_pre</pre>
+  <div id="writing_history" hidden></div>
+  <p><div id="writing_history_visible"></div></p>
+</body> 
+</html>
